@@ -18,38 +18,6 @@ header img {
     transform: translate(-50%, -50%);
 }
 
-/* centered text */
-.high1-centered {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* centered text */
-.high-centered {
-    position: absolute;
-    top: 56%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* centered text */
-.mid-centered {
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* centered text */
-.low-centered {
-    position: absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
 
 /* bottom text */
 .bottom {
@@ -79,14 +47,16 @@ h1 {
     margin: 0;
 }   
 .container h2 {
-    font-size: clamp(14px, 2.5vw, 20px)
+    font-size: clamp(14px, 2.5vw, 40px)
 }
 h3 {
     font-size: 30px;
 }
-
+.column:nth-child(2) p {
+    font-size: clamp(8px, 1.5vw, 30px);
+}
 img {
-    border-radius: 20px;
+    border-radius: 2%;
 }
 
 .row {
@@ -98,6 +68,9 @@ img {
 
 .column img {
     display: block;
+    width: auto;
+    max width: 400px;
+    height: 40vw;
 
 }
 
@@ -107,7 +80,7 @@ a:link {
     color: black;
     background-color: transparent;
     text-decoration: none;
-    font-size: 40px;
+    font-size: clamp(20px, 2.5vw, 40px)
 }
 
 .column:nth-child(2) {
