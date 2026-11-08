@@ -68,19 +68,20 @@ header img {
 }
 
 h2 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 30px;
-
+    font-size: 20px;
 }
 
 h1 {
     font-size: 80px;
 }
-
-h4 {
+.container h1 {
+    font-size: clamp(24px, 6vw, 80px);
+    margin: 0;
+}   
+.container h2 {
+    font-size: clamp(14px, 2.5vw, 20px)
+}
+h3 {
     font-size: 30px;
 }
 
