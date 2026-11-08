@@ -17,46 +17,48 @@ header img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* centered text */
-.high1-centered
-{
+.high1-centered {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* centered text */
-.high-centered
-{
+.high-centered {
     position: absolute;
     top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* centered text */
-.mid-centered
-{
+.mid-centered {
     position: absolute;
     top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* centered text */
-.low-centered
-{
+.low-centered {
     position: absolute;
     top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
+
 /* bottom text */
 .bottom {
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-} 
+}
+
 /* Left text */
 .left {
     position: absolute;
@@ -73,9 +75,11 @@ h3 {
     font-size: 30px;
 
 }
+
 h1 {
     font-size: 80px;
 }
+
 h4 {
     font-size: 30px;
 }
@@ -83,17 +87,19 @@ h4 {
 img {
     border-radius: 20px;
 }
+
 .row {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    }
-
-
-.column img{
-    display: block;
-  
 }
+
+
+.column img {
+    display: block;
+
+}
+
 /* Clear floats after the column */
 
 a:link {
@@ -102,6 +108,7 @@ a:link {
     text-decoration: none;
     font-size: 40px;
 }
+
 .column:nth-child(2) {
     text-align: center;
 }
